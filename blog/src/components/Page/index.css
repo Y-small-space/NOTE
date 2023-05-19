@@ -1,0 +1,7 @@
+.page{
+    width: 960px;
+    height: 100%;
+    overflow: auto;
+    padding: 20px;
+    background-color: white;
+}
