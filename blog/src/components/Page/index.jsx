@@ -8,6 +8,7 @@ import NodePage from "./Page-nodejs";
 import ReactPage from "./Page-React";
 import HomePage from "./Page-home";
 import './index.css'
+import Page_Ajax from "./Page-AJAX";
 
 export default function Page() {
   return (
@@ -20,6 +21,7 @@ export default function Page() {
         <Route path="/home" component={HomePage} />
         <Route path="/javascript" component={JavascriptPage} />
         <Route path="/nodejs" component={NodePage} />
+        <Route path="/ajax" component={Page_Ajax}></Route>
         <Redirect to="/home" />
       </Switch>
     </div>

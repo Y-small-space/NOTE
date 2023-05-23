@@ -5,9 +5,7 @@ export default function HomePage() {
   return (
     <div className="home">
       <div className="box">
-        <div className="blog-name">Blog Name</div>
-        <div className="introduction">Introduction</div>
-        <div className="plan">Plan</div>
+        <div className="blog-name">JY'Blog</div>
       </div>
     </div>
   );

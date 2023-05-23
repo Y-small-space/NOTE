@@ -5,3 +5,9 @@
     padding: 20px;
     background-color: white;
 }
+.page-head{
+    height: 100px;
+    background-color: antiquewhite;
+    line-height: 100px;
+    padding-left: 40px;
+}
